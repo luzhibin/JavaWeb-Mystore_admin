@@ -25,7 +25,7 @@
 		<hr>
 
 		<div class="edit_content">
-			<form id="add_form" action="${ctx }/GoodsAddServlet" method="post"
+			<form id="add_form" action="${ctx }/GoodsServlet?action=addGoods" method="post"
 				style="background: none; width: 700px;">
 				<div class="item1">
 					<div>

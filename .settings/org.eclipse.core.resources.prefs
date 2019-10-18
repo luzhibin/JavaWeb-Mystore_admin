@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/dao=UTF-8
+encoding//src/web=GBK
+encoding//src/web/AdminServlet.java=GBK
+encoding//src/web/BaseServlet.java=GBK
+encoding//src/web/GoodsServlet.java=GBK
+encoding/src=GBK

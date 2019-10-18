@@ -66,7 +66,7 @@
         <li>${goods.name }</li>
         <li>${goods.price }</li>
         <li>
-        	<a href="${ctx }/GoodsEditUIServlet?id=${goods.id}">
+        	<a href="${ctx }/GoodsServlet?action=editGoodsUI&id=${goods.id}">
         		<img class="img_icon" src="${ctx }/admin/images/edit_icon.png" alt="">
         	</a>
         </li>
@@ -96,7 +96,7 @@
     });
 
     $("#add").click(function () {
-        $(window).attr('location','${ctx}/GoodsAddUIServlet');
+        $(window).attr('location','${ctx}/GoodsServlet?action=addGoodsUI');
     });
 
 </script>
